@@ -1,0 +1,171 @@
+body{
+	background-color: #ffcb60;
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+}
+
+/*menu*/
+
+.menu {
+	font-size: 18px;
+	color: red;
+	width: 100%;
+	overflow: auto;
+}
+
+.menu ul{
+	list-style: none;
+	margin-right: 40px;
+	float:right;
+}
+
+.menu li{
+	display: inline-block;
+	margin-right: 30px;
+	cursor: pointer;
+	border-bottom:1px solid red;
+	color: rgba(255,0,0,1.0);
+}
+
+
+
+/*.menu li a:link*/
+.menu li a:visited{
+	background-color: none;
+	text-transform: uppercase;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+	color: rgba(255,0,0,1.0);
+}
+
+.menu li a:hover
+/*.menu li a:active*/{
+	border-bottom: 2px solid orange;
+
+}
+
+/*form*/
+form{
+	height: 700px;
+	width: 100%;
+	padding: 20px 20px 20px 80px;
+	box-sizing: border-box;
+	margin: 20px;
+}
+.form{
+	margin: 0 auto;
+	width: 70%;
+	background-color: #fcfaf7;
+	border-radius: 20px;
+	clear: right;
+}
+
+.post{
+	margin: 0 auto;
+}
+
+.post1 input[type="text"] {
+	border: 3px solid orange;
+	border-radius: 20px;
+	height: 20px;
+	width: 200px;
+	margin: 20px;
+}
+
+.post2 input[type="text"] {
+	border: 3px solid orange;
+	border-radius: 20px;
+	height: 20px;
+	width: 300px;
+	margin: 20px;
+}
+
+.post3 {
+	margin: 20px;
+}
+
+.occupation{
+	margin-right: 40px;
+}
+
+.post4 input[type="text"] {
+	border: 3px solid orange;
+	border-radius: 20px;
+	height: 20px;
+	width: 80px;
+	margin-left: 60px;
+}
+
+.years{
+	margin-left: 20px;
+}
+
+.howlong{
+	margin-left: 20px;
+}
+
+.rate {
+	margin: 20px;
+}
+
+.salary {
+	margin: 20px;
+}
+
+.atmosphere{
+	margin: 20px;
+}
+
+.compliance{
+	margin: 20px;
+}
+
+.comment textarea{
+	margin-left: 80px;
+	font-size: 12px;
+	border-radius: 10px;
+	width: 500px;
+}
+
+input[type="submit"]{
+	-webkit-appearance: button;
+	height: 40px;
+	width: 120px;
+	margin-top: 40px;
+	font-size: 20px;
+	margin-left: 25%;
+	border: 3px solid orange;
+	border-radius: 20px;
+	background-color: #ffcb60;
+	color: black;
+	box-shadow: 0 1px 0 1px;
+}
+
+
+input[type="submit"]:hover,
+input[type="submit"]:hover{
+	transform: scale(1.1);
+}
+
+input[type="reset"]{
+	-webkit-appearance: button;
+	height: 40px;
+	width: 120px;
+	margin-top: 40px;
+	font-size: 20px;
+	margin-left: 40px;
+	border: 3px solid orange;
+	border-radius: 20px;
+	background-color: #bcb9b7;
+	color: white;
+	box-shadow: 0 1px 0 1px;
+}
+
+input[type="reset"]:hover,
+input[type="reset"]:hover{
+	transform: scale(1.1);
+}
+
